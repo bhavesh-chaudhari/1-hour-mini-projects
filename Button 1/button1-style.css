@@ -51,4 +51,5 @@ button {
 button:hover {
   background-image: url("https://media0.giphy.com/media/13USt1URETlUFG/200.gif");
   background-size: cover;
+  cursor:pointer;
 }
