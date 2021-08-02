@@ -1,5 +1,5 @@
 ## About this Repo - 
-### This repository has projects that can be made within an hour. Here the code is provided along with live demo(if feasible).
+### This repository has projects that can be made within an hour. Here the code is provided along with live demo.
 
 | Project        | Code   |Tags | Description | Categories|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
