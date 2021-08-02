@@ -1,3 +1,6 @@
+## About this Repo - 
+### This repository has projects that can be made within an hour. Here the code is provided along with live demo(if feasible).
+
 | Project        | Code   |Tags | Description | Categories|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 | `01`  | [Dark Mode](https://github.com/bhavesh-chaudhari/1hr_MiniProjects-Components_HTML-CSS-JS/tree/main/Dark%20Mode) |*Dark Mode, Toggle Switch, **easy***|[Read Here](#dark-mode)|JS, HTML , CSS|[Live Demo](https://codepen.io/bhavesh_c/full/OJmVbvy) |
