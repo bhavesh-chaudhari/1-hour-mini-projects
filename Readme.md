@@ -6,7 +6,7 @@
 | `01`  | [Dark Mode](https://github.com/bhavesh-chaudhari/1hr_MiniProjects-Components_HTML-CSS-JS/tree/main/Dark%20Mode) |*Dark Mode, Toggle Switch, **easy***|[Read Here](#dark-mode)|JS, HTML , CSS|[Live Demo](https://codepen.io/bhavesh_c/full/OJmVbvy) |
 | `02`  | [Background Gif on Button and Text Glow](https://github.com/bhavesh-chaudhari/1hr_MiniProjects-Components_HTML-CSS-JS/tree/main/Button%201) |*Button 1, Text glow, Gif Background, **tea time***|[Read Here](#background-gif-on-button-and-text-glow)|CSS, HTML|[Live Demo](https://codepen.io/bhavesh_c/full/QWvbdrB) |
 | `03`  | [Random Image Animation and Anime Images Api](https://github.com/bhavesh-chaudhari/Slider-and-Random-Anime-Image-Gif) |*Random Animation, Anime Images Api, **Moderate***|[Read Here](#random-image-animation-and-anime-images-api)|JS, HTML , CSS|[Live Demo](https://codepen.io/bhavesh_c/full/zYwqMLj) |
-| `04`  | [Simple Text Analyzer](https://github.com/bhavesh-chaudhari/Slider-and-Random-Anime-Image-Gif) |*Random Animation, Anime Images Api, **Moderate***|[Read Here](#random-image-animation-and-anime-images-api)|JS, HTML , CSS|[Live Demo](https://codepen.io/bhavesh_c/full/zYwqMLj) |
+| `04`  | [Simple Text Analyzer](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/tree/main/Word%20Counter) |*Email, word, letter detector, Bacon Ipsum Api, **easy to moderate***|[Read Here](#)|JS, HTML , CSS|[Live Demo](https://bhavesh-chaudhari.github.io/1hr_MiniProjects/Word%20Counter/word-counter.html) |
 
 
 
