@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Word Counter/word-counter.css" />
+    <title>Word Counter</title>
+  </head>
+  <body>
+    <div id="inputDiv" class="inputDiv">
+        <textarea spellcheck="false" id="input" cols="50" rows="15"></textarea>
+    </div>
+    <div id="generate" class="randomEpsum">
+        <button id="btn" >Generate Random Text</button>
+        <button id="reset" >Reset</button>
+    </div>
+    <div class="wrapper">
+      <div id="words" class="words">
+          <h1>words</h1>
+          <p>0</p>
+      </div>
+      <div id="letters" class="letters">
+          <h1>letters</h1>
+          <p>0</p>
+      </div>
+      <div id="emails" class="emails">
+          <h1>emails</h1>
+          <p>0</p>
+      </div>
+    </div>
+
+    <script src="/Word Counter/word-counter.js"></script>
+  </body>
+</html>

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+    background: #1e1b20;
+}
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    padding: 1rem;
+}
+
+textarea{
+    resize: none;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    background: rgb(188, 208, 247);
+    font-family: "Poppins",sans-serif;
+    outline: none;
+    font-size: 1rem;
+    transition: all 0.2s;
+    font-weight: bolder;
+    color: black;
+    letter-spacing: 2px;
+}
+
+textarea:focus{
+    background: blueviolet;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper div{
+    background: #00FF99;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: blueviolet;
+    min-width: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 3rem;
+}
+
+.wrapper p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: black;
+}
+
+.randomEpsum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    outline: 1px solid skyblue;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.2s;
+    margin: 0.5rem;
+    color: blue;
+}
+#reset{
+    background: whitesmoke;
+    color: red;
+    border: none;
+    outline: 1px solid red;
+}
+
+button:hover{
+    background:white;
+    outline: 2px solid #00FF99;
+}
+
+#reset:hover{
+    background: white;
+    outline: 2px solid #00FF99;
+}
+
+@media screen and (max-width:600px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .wrapper div{
+    background: #00FF99;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: blueviolet;
+    min-width: 15rem;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin: 0.5rem;
+}
+.wrapper p{
+    font-size: 1rem;
+}   
+textarea{
+    width: 15rem;
+    height: 18rem;
+}
+button{
+    margin: 0;
+}
+#reset{
+    background: whitesmoke;
+    color: red;
+}
+}
+
