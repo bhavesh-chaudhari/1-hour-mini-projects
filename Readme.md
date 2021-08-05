@@ -18,3 +18,5 @@ Simple Dark Mode Page using HTML, CSS and JS.
 Glowing text animation with CSS and using gif in button background.
 ### Random Image Animation and Anime Images Api
 Fetching data from [Waifu Pics Api](https://waifu.pics/) and using pics in carousel that gives random pic animation from any of the 4 sides of carousel.
+### Simple Text Analyzer
+Counting the number of words, letters and emails in the given text. 
