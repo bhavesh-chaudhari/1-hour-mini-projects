@@ -33,7 +33,6 @@ setImage("https://source.unsplash.com/random");
 
 const getContextMenu = (someEvent) => {
   someEvent.preventDefault();
-  console.log(someEvent.clientY)
   contextMenu.style.display = "block";
   if(someEvent.clientY < 550){
      contextMenu.style.left = `${someEvent.clientX}px`;
