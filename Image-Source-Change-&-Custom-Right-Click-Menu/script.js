@@ -21,7 +21,6 @@ const setImage = (sourceUrl) => {
     );
   } else {
     imageEl.attachEvent("oncontextmenu", function () {
-      alert("You've tried to open context menu");
       window.event.returnValue = false;
     });
   }
@@ -34,20 +33,32 @@ setImage("https://source.unsplash.com/random");
 
 const getContextMenu = (someEvent) => {
   someEvent.preventDefault();
-  
+  console.log(someEvent.clientY)
   contextMenu.style.display = "block";
-  contextMenu.style.left = `${someEvent.clientX}px`;
-  contextMenu.style.top = `${someEvent.clientY}px`;
+  if(someEvent.clientY < 550){
+     contextMenu.style.left = `${someEvent.clientX}px`;
+     contextMenu.style.top = `${someEvent.clientY}px`;
+  }
+  else{
+    contextMenu.style.left = `${someEvent.clientX}px`;
+    contextMenu.style.top = `${someEvent.clientY - 100 }px`;
+  }
  
 };
 
 btn.addEventListener("click", () => changeImage());
+const abbr = document.querySelector("abbr");
 
 const changeImage = () => {
   imageDiv.innerHTML = "";
+   abbr.innerHTML = srcInput.value;
+   abbr.title = srcInput.value;
   setImage(srcInput.value);
   contextMenu.style.display = "none";
   document.getElementById('notify').innerHTML = "The Image was changed with new url"
+  document.querySelector('p').style.display = "block"
+  btn.style.display = "none";
+
 };
 
 btn.style.display = "none";
@@ -62,6 +73,22 @@ srcInput.addEventListener('input',()=>{
         }
 })
 
-document.addEventListener('click',()=>{
-    contextMenu.style.display = "none";
+document.addEventListener('click',(e)=>{
+    e.preventDefault()
+   if(!e.target.classList.contains("block")){
+        contextMenu.style.display = "none";
+   }
 })
+
+const generateOption = document.getElementById('generate');
+generateOption.addEventListener('click',()=>generateUrl())
+
+const UNSPLASHURL = "https://source.unsplash.com/1600x900/?";
+
+const generateUrl = ()=>{
+  const imgArray = ["nature","water","sports","cartoon","beautiul","world","news","boy","girl","smile","cry","doll","movie","happy","sad","landscape","desert","ocean","river"]
+
+  setUrl = UNSPLASHURL + imgArray[Math.floor(Math.random()*imgArray.length)];
+  srcInput.value = setUrl;
+  btn.style.display = "block";
+}
