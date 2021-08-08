@@ -12,8 +12,6 @@
 
 
 
-https://bhavesh-chaudhari.github.io/1hr_MiniProjects/06-Particles-Js/index.html
-
 ## Descriptions -
 
 ### Dark Mode
