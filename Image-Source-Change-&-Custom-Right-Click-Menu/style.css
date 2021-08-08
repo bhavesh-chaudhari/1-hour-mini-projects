@@ -119,4 +119,10 @@ button{
     background: blueviolet;
     border-radius: 3px;
     color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in
+}
+
+button:hover{
+    background: rgba(37, 11, 88,0.4)
 }
