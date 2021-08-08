@@ -85,7 +85,7 @@ generateOption.addEventListener('click',()=>generateUrl())
 const UNSPLASHURL = "https://source.unsplash.com/1600x900/?";
 
 const generateUrl = ()=>{
-  const imgArray = ["nature","water","sports","cartoon","beautiul","world","news","boy","girl","smile","cry","doll","movie","happy","sad","landscape","desert","ocean","river"]
+  const imgArray = ["nature","water","sports","cartoon","beautiful","world","news","boy","girl","smile","cry","doll","movie","happy","sad","landscape","desert","ocean","river"]
 
   setUrl = UNSPLASHURL + imgArray[Math.floor(Math.random()*imgArray.length)];
   srcInput.value = setUrl;
