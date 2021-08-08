@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(221, 214, 204);
+}
+
+#particles-js{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(5, 5, 5, 0.9);
+    height: 100vh;
+}
+
+.heading{
+    position: absolute;
+    transform: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+}
+h1{
+    font-weight: lighter;
+    color: blue;
+}
