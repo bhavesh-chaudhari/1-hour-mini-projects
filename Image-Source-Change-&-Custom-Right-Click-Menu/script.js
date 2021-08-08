@@ -34,7 +34,7 @@ setImage("https://source.unsplash.com/random");
 const getContextMenu = (someEvent) => {
   someEvent.preventDefault();
   contextMenu.style.display = "block";
-  if(someEvent.clientY < 550){
+  if(someEvent.clientY < 500){
      contextMenu.style.left = `${someEvent.clientX}px`;
      contextMenu.style.top = `${someEvent.clientY}px`;
   }
