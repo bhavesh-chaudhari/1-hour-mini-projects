@@ -28,6 +28,6 @@ Counting the number of words, letters and emails in the given text.
 ### Edit Image Source and Custom Context Menu
 Giving an option to change the image source and making custom context menu on right click. The idea of making custom context menu can be very useful at times. Some of the interesting things we can do with it is making a custom menu for video player or context menus like we see in figma, g-slides, etc.
 ### Particle JS Example
-[Particle JS](https://github.com/VincentGarreau/particles.js/) is a lightweight JavaScript Library that enables us to create particles on HTML canvas and do some really cool stuff with particles without actually having us to deal with canvas. Using this, many cool interactive animations can be made on hovering or clicking some field in website. Visit this website to see what more stuff it can do - [Link](https://vincentgarreau.com/particles.js/)
+[Particle JS](https://github.com/VincentGarreau/particles.js/) is a lightweight JavaScript Library that enables us to create particles on HTML canvas and do some really cool stuff with particles without actually having us to deal with canvas. Using this, many cool interactive animations can be made on hovering or clicking some field in website. If interested then you can visit this website to see what more stuff it can do - [Link](https://vincentgarreau.com/particles.js/)
 ### Page Scroll Progress Bar
 Live Progress Bar which indicates the percentage of page height scrolled.
