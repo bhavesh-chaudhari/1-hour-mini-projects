@@ -9,6 +9,7 @@
 | `04`  | [Simple Text Analyzer](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/tree/main/Word%20Counter) |*Email, word, letter detector, Bacon Ipsum Api, **easy to moderate***|[Read Here](#simple-text-analyzer)|JS, HTML , CSS|[Live Demo](https://bhavesh-chaudhari.github.io/1hr_MiniProjects/Word%20Counter/word-counter.html) |
 | `05`  | [Edit Image Source and Custom Context Menu](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/tree/main/Image-Source-Change-%26-Custom-Right-Click-Menu) |*Image Source change, Custom Right Click Menu, Random Unsplash Image, **moderate***|[Read Here](#edit-image-source-and-custom-context-menu)|JS, HTML , CSS|[Live Demo](https://bhavesh-chaudhari.github.io/1hr_MiniProjects/Image-Source-Change-&-Custom-Right-Click-Menu/index.html) |
 | `06`  | [Particle JS Example](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/tree/main/06-Particles-Js) |*Particle Js Example, Canvas, Animation, **easy to moderate***|[Read Here](#particle-js-example)|JS, HTML , CSS|[Live Demo](https://bhavesh-chaudhari.github.io/1hr_MiniProjects/06-Particles-Js/index.html) |
+| `07`  | [Page Scroll Progress Bar](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/tree/main/07-Page-Scroll-Progress-Bar) |*Page Scroll, Progress Bar, **easy***|[Read Here](#page-scroll-progress-bar)|JS, HTML , CSS|[Live Demo](https://bhavesh-chaudhari.github.io/1hr_MiniProjects/07-Page-Scroll-Progress-Bar/index.html) |
 
 
 
@@ -28,3 +29,5 @@ Counting the number of words, letters and emails in the given text.
 Giving an option to change the image source and making custom context menu on right click. The idea of making custom context menu can be very useful at times. Some of the interesting things we can do with it is making a custom menu for video player or context menus like we see in figma, g-slides, etc.
 ### Particle JS Example
 [Particle JS](https://github.com/VincentGarreau/particles.js/) is a lightweight JavaScript Library that enables us to create particles on HTML canvas and do some really cool stuff with particles without actually having us to deal with canvas. Using this, many cool interactive animations can be made on hovering or clicking some field in website. Visit this website to see what more stuff it can do - [Link](https://vincentgarreau.com/particles.js/)
+### Page Scroll Progress Bar
+Live Progress Bar which indicates the percentage of page height scrolled.
