@@ -1,5 +1,6 @@
 const bar = document.querySelector(".bar");
 var timer = null;
+heading = document.querySelector(".heading h1");
 
 window.addEventListener("scroll", () => {
   var windowScrolled =
@@ -12,6 +13,13 @@ window.addEventListener("scroll", () => {
     document.documentElement.scrollHeight -
     document.documentElement.clientHeight;
   var scrolledPercent = (windowScrolled / height) * 100;
+  heading.innerHTML =
+     "Scroll The Page to see the progress bar at bottom ";
+  if(scrolledPercent > 1){
+      heading.innerHTML =
+        "You have Scrolled" +
+        ` <span>${Math.round(scrolledPercent * 100) / 100}%</span> ` + "of the website";
+  }
   bar.style.width = scrolledPercent + "%";
   bar.style.background = "blue";
   bar.style.opacity = "1";
