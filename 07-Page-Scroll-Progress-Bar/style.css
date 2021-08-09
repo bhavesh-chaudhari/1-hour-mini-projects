@@ -44,5 +44,5 @@ h1{
     height: 10px;
     top: 0;
     width: 0%;
-    transition: opacity 1s;
+    transition: opacity 0.5s;
 }
