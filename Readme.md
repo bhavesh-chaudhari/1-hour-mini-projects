@@ -1,4 +1,4 @@
-# 1hr_MiniProjects - 
+# 1-hour-Mini-Projects  
 
 ### This repository has projects that can be made within an hour. Here the code is provided along with live demo or final outcomes. 
 #### All the code is present inside the directories for respective category. Presently the available categories are - 
