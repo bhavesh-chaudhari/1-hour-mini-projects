@@ -53,7 +53,7 @@ def get_billionaires_info():
         required_array[index] = updict
 
     with open(
-        "./Python/Extracting-top-billionaires-Info-with-Beautiful-Soup-Project1/billionaires_data.js",
+        "./Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js",
         mode="w",
         encoding="utf-8",
     ) as data_file:
