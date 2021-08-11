@@ -56,7 +56,7 @@ Giving an option to change the image source and making custom context menu on ri
 
 Live Progress Bar which indicates the percentage of page height scrolled.
 
-## Python-Projects-Descriptions
+## Python-Projects-Description
 
 ### Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1hr_MiniProjects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
