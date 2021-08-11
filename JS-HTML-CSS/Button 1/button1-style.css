@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  position: relative;
+  top: 30%;
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 0.2rem;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: txtGlow 1s ease-in-out infinite alternate;
+}
+
+@keyframes txtGlow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px red, 0 0 40px red,
+      0 0 50px red, 0 0 60px red, 0 0 70px red;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #00aaa9, 0 0 40px #00aaa9,
+      0 0 50px #00aaa9, 0 0 60px #00aaa9, 0 0 70px #00aaa9, 0 0 80px #00aaa9;
+  }
+}
+
+body {
+  background: #170000;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+}
+
+a{
+  text-decoration:none;
+  color:white
+}
+
+.button {
+  position: relative;
+  top: 50%;
+}
+
+button {
+  color: aliceblue;
+  background-image: url("https://i.pinimg.com/564x/c1/ea/ab/c1eaabac0e87deaf1ec54667f7dd35bd.jpg");
+  background-size: contain;
+  font-size: 3rem;
+  padding: 1.2rem;
+  border-radius: 5%;
+}
+
+button:hover {
+  background-image: url("https://media0.giphy.com/media/13USt1URETlUFG/200.gif");
+  background-size: cover;
+  cursor:pointer;
+}
