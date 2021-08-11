@@ -20,11 +20,7 @@
 ## Python
 | Project        | Code   |Tags | Description |Difficulty|Outcome|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
-<<<<<<< HEAD
-|`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#extracting-top-billionaires-info-with-beautiful-soup)|**Challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
-=======
 |`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#1-extracting-top-billionaires-info-with-beautiful-soup)|**Challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
->>>>>>> 2546939cf80e0b7614b526a3c8e6eba5fceae1c5
 ## Descriptions -
 
  1. [```JS-HTML-CSS```](#js-html-css-projects-description)
@@ -62,10 +58,5 @@ Live Progress Bar which indicates the percentage of page height scrolled.
 
 ## Python-Projects-Description
 
-<<<<<<< HEAD
-### Extracting top billionaires info with Beautiful Soup
-Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
-=======
 ### 1. Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
->>>>>>> 2546939cf80e0b7614b526a3c8e6eba5fceae1c5
