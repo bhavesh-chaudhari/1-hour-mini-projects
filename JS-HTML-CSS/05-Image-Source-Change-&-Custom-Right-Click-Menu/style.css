@@ -127,3 +127,15 @@ button:hover{
     background: rgba(37, 11, 88,0.4)
 }
 
+
+@media screen and (max-width:800px) {
+    .img{
+        width: 100%;
+    }
+    body{
+        overflow-y: auto;
+    }
+    .img img{
+        width: 70%;
+    }
+}
