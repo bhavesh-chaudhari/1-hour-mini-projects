@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/css/main.611c9693.chunk.css",
+    "main.js": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/main.77ef8a67.chunk.js",
+    "main.js.map": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/main.77ef8a67.chunk.js.map",
+    "runtime-main.js": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/runtime-main.4417a735.js",
+    "runtime-main.js.map": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/runtime-main.4417a735.js.map",
+    "static/js/2.96cbe292.chunk.js": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/2.96cbe292.chunk.js",
+    "static/js/2.96cbe292.chunk.js.map": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/2.96cbe292.chunk.js.map",
+    "index.html": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/index.html",
+    "static/css/main.611c9693.chunk.css.map": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/css/main.611c9693.chunk.css.map",
+    "static/js/2.96cbe292.chunk.js.LICENSE.txt": "/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div/static/js/2.96cbe292.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4417a735.js",
+    "static/js/2.96cbe292.chunk.js",
+    "static/css/main.611c9693.chunk.css",
+    "static/js/main.77ef8a67.chunk.js"
+  ]
+}
