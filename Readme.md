@@ -3,11 +3,11 @@
 ### This repository has projects that can be made within an hour. Here the code is provided along with live demo or final outcomes. 
 #### All the code is present inside the directories for respective category. Presently the available categories are - 
 
-1. [JS-HTML-CSS](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS) : [```Guide```](#js-html-css)
-2. [React](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React) : [```Guide```](#react)
-3. [Python](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/) : [```Guide```](#python)
+1.   [JS-HTML-CSS  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS) : [```Guide```](#js-html-css)
+2. [React  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React) : [```Guide```](#react)
+3. [Python  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/) : [```Guide```](#python)
 
-## JS-HTML-CSS
+## <img alt="Javascript-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><img alt="Html-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img alt="CSS-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> JS-HTML-CSS  
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 | `01`  | [Dark Mode](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/01-Dark-Mode) |*Dark Mode, Toggle Switch*|[Read Here](#1-dark-mode)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/01-Dark-Mode/index.html) |
@@ -18,22 +18,22 @@
 | `06`  | [Particle JS Example](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/06-Particles-Js) |*Particle Js Example, Canvas, Animation*|[Read Here](#6-particle-js-example)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/06-Particles-Js/index.html) |
 | `07`  | [Page Scroll Progress Bar](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/07-Page-Scroll-Progress-Bar) |*Page Scroll, Progress Bar*|[Read Here](#7-page-scroll-progress-bar)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/07-Page-Scroll-Progress-Bar/index.html) |
 
-## React
+##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 |`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|useState, useEffect, useRef, conditional rendering|[Read Here](#1-add-random-colored-div)|easy to moderate|[Live Demo](https://01-add-random-colored-div-1hour-mini-projects-bhavesh-c.netlify.app/)|
 
-## Python
+## <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python
 | Project        | Code   |Tags | Description |Difficulty|Outcome|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 |`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#1-extracting-top-billionaires-info-with-beautiful-soup)|**challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
-## Descriptions -
+## :page_with_curl: Descriptions -
 
  1. [```JS-HTML-CSS```](#js-html-css-projects-description)
  2. [```React```](#react-projects-description)
  3. [```Python```](#python-projects-description)
 
-## JS-HTML-CSS-Projects-Description
+## :fountain_pen: JS-HTML-CSS-Projects-Description
 
 ### 1. Dark Mode
 
@@ -63,12 +63,11 @@ Giving an option to change the image source and making custom context menu on ri
 
 Live Progress Bar which indicates the percentage of page height scrolled.
 
-## React-Projects-Description
-
+## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
 Simple illustration of useState, useEffect, useRef hooks and conditional rendering.
 
-## Python-Projects-Description
+## :fountain_pen:  Python-Projects-Description
 
 ### 1. Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
