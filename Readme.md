@@ -3,9 +3,9 @@
 ### This repository has projects that can be made within an hour. Here the code is provided along with live demo or final outcomes. 
 #### All the code is present inside the directories for respective category. Presently the available categories are - 
 
-1.   [JS-HTML-CSS  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS) : [```Guide```](#js-html-css)
-2. [React  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React) : [```Guide```](#react)
-3. [Python  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/) : [```Guide```](#python)
+1.   [JS-HTML-CSS  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS) : [```Guide```](#-js-html-css)
+2. [React  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React) : [```Guide```](#-react)
+3. [Python  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/) : [```Guide```](#-python)
 
 ## <img alt="Javascript-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><img alt="Html-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img alt="CSS-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> JS-HTML-CSS  
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
@@ -29,9 +29,9 @@
 |`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#1-extracting-top-billionaires-info-with-beautiful-soup)|**challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
 ## :page_with_curl: Descriptions -
 
- 1. [```JS-HTML-CSS```](#js-html-css-projects-description)
- 2. [```React```](#react-projects-description)
- 3. [```Python```](#python-projects-description)
+ 1. [```JS-HTML-CSS```](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects#fountain_pen-js-html-css-projects-description)
+ 2. [```React```](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects#fountain_pen--react-projects-description)
+ 3. [```Python```](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects#fountain_pen--python-projects-description)
 
 ## :fountain_pen: JS-HTML-CSS-Projects-Description
 
