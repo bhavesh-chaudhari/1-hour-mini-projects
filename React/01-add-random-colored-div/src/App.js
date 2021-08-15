@@ -70,7 +70,7 @@ const App = () => {
   // Conditional Rendering
   const Para = () => {
     if (options.length === 0) {
-      return <p>All Divs Were Cleared.</p>;
+      return <p>All divs were cleared.</p>;
     } else if (options.length === 1) {
       return <p>There is 1 Div.</p>;
     } else {
