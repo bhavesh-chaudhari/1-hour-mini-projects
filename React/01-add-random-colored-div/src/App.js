@@ -1,10 +1,13 @@
-import React, { useState} from "react";
+import React, { useState,useEffect ,useRef} from "react";
 import "./App.css";
 import Div from "./Components/Div";
 
 const App = () => {
+  
   // useState() for keeping account of number of Divs
   const [count, setCount] = useState(2);
+  const clrBtn = useRef(null)
+  
   // An array for storing all the current Div Components
   const options = [];
 
@@ -75,6 +78,16 @@ const App = () => {
     }
   };
 
+  // should run after every change in count
+  useEffect(()=>{
+    if (options.length === 0) {
+      clrBtn.current.style.display = "none";
+    }
+    else{
+      clrBtn.current.style.display = "block";
+    }
+  },[count])
+
   return (
     <>
       <div className="container">
@@ -84,7 +97,7 @@ const App = () => {
           Add Div
         </button>
         <div className="content">{options}</div>
-        <button className="btn" onClick={() => setCount(0)}>
+        <button style={{display:"block"}} ref={clrBtn} className="btn" onClick={() => setCount(0)}>
           Clear All
         </button>
       </div>
