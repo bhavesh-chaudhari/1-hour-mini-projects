@@ -1,11 +1,15 @@
 # 1-Hour-Mini-Projects  
 
 ### This repository has projects that can be made within an hour. Here the code is provided along with live demo or final outcomes. 
+#### See [Wild West ?](#the-wild-west) to know more about this repository.
+
 #### All the code is present inside the directories for respective category. Presently the available categories are - 
 
 1.   [JS-HTML-CSS  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS) : [```Guide```](#-js-html-css)
 2. [React  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React) : [```Guide```](#-react)
 3. [Python  :file_folder:](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/) : [```Guide```](#-python)
+
+
 
 ## <img alt="Javascript-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /><img alt="Html-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /><img alt="CSS-Logo" width="18px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> JS-HTML-CSS  
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
@@ -71,4 +75,23 @@ Simple illustration of useState, useEffect, useRef hooks and conditional renderi
 
 ### 1. Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
+
+
+
+<h1 align = "center" >The Wild West</h1>
+
+### Welcome to The Wild West of this repository.  As the name implies this section  is wild. There won't be any code or project description here. So what is inside this section is not certain and can be found here - 
+1. [`FAQ`](#glossary)
+
+### FAQ -
+1. What does `1-Hour-Mini-Projects` mean ?
+:pen: It means that each project in this repository is doable in an hour if one has the basic understanding of the programming language or library/framework used in the project and wants to try it out by following along the given code but it doesn't necessarily means that the project was made in an hour. Sometimes it takes more than an hour to make some projects since it involves deciding the project idea, some pre-research and a little bit of brushing up followed by actual coding. 
+2. What do the  `tags` imply  ?
+:pen: The tags contain information about what library/framework/concepts/tool is used in the project.
+3. What decides the `difficulty` level of a project ?
+:pen: The difficulty level is decided by the amount of effort it can take to make the project if it was done by someone who is beginner in working with the tools used in the project. The difficulty levels are tea time(i.e. can be done before your tea gets cold :eyes: :p ), easy, moderate and challenging.
+4. How are the categories decided ?
+:pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
+
+
 
