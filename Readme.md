@@ -84,13 +84,16 @@ Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library t
 1. [`FAQ`](#glossary)
 
 ### FAQ -
-1. What does `1-Hour-Mini-Projects` mean ?
+1. What does `1-Hour-Mini-Projects` mean ?  
 :pen: It means that each project in this repository is doable in an hour if one has the basic understanding of the programming language or library/framework used in the project and wants to try it out by following along the given code but it doesn't necessarily means that the project was made in an hour. Sometimes it takes more than an hour to make some projects since it involves deciding the project idea, some pre-research and a little bit of brushing up followed by actual coding. 
-2. What do the  `tags` imply  ?
+
+2. What do the  `tags` imply  ?  
 :pen: The tags contain information about what library/framework/concepts/tool is used in the project.
-3. What decides the `difficulty` level of a project ?
+
+3. What decides the `difficulty` level of a project ?  
 :pen: The difficulty level is decided by the amount of effort it can take to make the project if it was done by someone who is beginner in working with the tools used in the project. The difficulty levels are tea time(i.e. can be done before your tea gets cold :eyes: :p ), easy, moderate and challenging.
-4. How are the categories decided ?
+
+4. How are the `categories` decided ?  
 :pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
 
 
