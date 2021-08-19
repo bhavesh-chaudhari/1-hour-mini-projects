@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background: #1DA1F2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h3{
+    margin-top: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.questionTime{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.questionTime select{
+    padding: 10px;
+    background: #fff;
+    border: none;
+}
+
+option{
+   font-size: 1rem;
+}
+
+.timeCount{
+    margin-bottom: 1.5rem;
+    color: whitesmoke;
+    opacity: 0;
+}
+
+select > option:nth-child(odd){
+    background: cyan;
+    border: none;
+}
+
+select > option:nth-child(even){
+    background: turquoise;
+    border: none;
+}
+
+.videoDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoPlayer{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    object-fit: fill;
+}
+
+.heading{
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30rem;   
+    height: 30rem;
+    background: #fff;
+    display: none;
+}
+
+.askQuestion{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+.askQuestion > p{
+    letter-spacing: 2px;
+    color: blueviolet;
+}
+
+.options{
+    margin-top: 2rem;
+}
+
+.option > input,.option > label{
+    cursor: pointer;
+}
+
+.questionBtn{
+    padding: 10px;
+    float: right;
+    background: transparent;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+    margin-top: 1rem;
+    display: none;
+}
+
+#submitBtn{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+#review{
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+}
+
+#setTime{
+    padding: 10px;
+    background: blueviolet;
+    border: 1px solid cyan;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
