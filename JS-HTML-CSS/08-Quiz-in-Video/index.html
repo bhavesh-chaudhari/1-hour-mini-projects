@@ -5,21 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Flexible Quiz in Video - 1HMP</title>
+    <title>08 Quiz in Video - 1HMP</title>
   </head>
   <body>
     <div class="container">
       <h3>Set the question Appearance time</h3>
       <div id="questionTime" class="questionTime">
-        <select name="time" id="select" >
-          <!-- <option value="volvo">Volvo</option>
-          <option value="saab">Saab</option>
-          <option value="mercedes">Mercedes</option>
-          <option value="audi">Audi</option> -->
-        </select>
+        <select name="time" id="select"></select>
         <button id="setTime">Set Time</button>
       </div>
-      <div class="timeCount"><p>The Question will appear in </p></div>
+      <div class="timeCount"><p>The Question will appear in</p></div>
       <div id="videoDiv" class="videoDiv">
         <video
           controls
@@ -34,38 +29,14 @@
           <div class="askQuestion">
             <p>Which of the following fruit is usually yellow colored ?</p>
             <div class="options">
-              <input
-                class="option"
-                type="radio"
-                id="option1"
-                name="fruit"
-                value="kiwi"
-              />
-              <label class="option" for="option1">Kiwi</label><br />
-              <input
-                class="option"
-                type="radio"
-                id="option2"
-                name="fruit"
-                value="orange"
-              />
-              <label class="option" for="option2">Orange</label><br />
-              <input
-                class="option"
-                type="radio"
-                id="option3"
-                name="fruit"
-                value="mango"
-              />
-              <label class="option" for="option3">Mango</label><br />
-              <input
-                class="option"
-                type="radio"
-                id="option4"
-                name="fruit"
-                value="apple"
-              />
-              <label class="option" for="option4">Apple</label>
+              <input type="radio" id="option1" name="fruit" value="kiwi" />
+              <label for="option1">Kiwi</label><br />
+              <input type="radio" id="option2" name="fruit" value="orange" />
+              <label for="option2">Orange</label><br />
+              <input type="radio" id="option3" name="fruit" value="mango" />
+              <label for="option3">Mango</label><br />
+              <input type="radio" id="option4" name="fruit" value="apple" />
+              <label for="option4">Apple</label>
             </div>
             <button id="submitBtn" onclick="checkAnswer()">Submit</button>
             <button class="questionBtn" id="continueBtn">Continue Video</button>

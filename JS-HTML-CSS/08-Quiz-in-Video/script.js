@@ -17,34 +17,32 @@ const setOptions = () => {
 videoPlayer.addEventListener('loadeddata',()=>setOptions())
 
 const setTime = () => {
-  console.log(select.value)
   timeCount.style.opacity = 1;
   timeCount.innerHTML = `<p>The Question will appear in ${select.value} second/s</p>`;
+  // All our functionality for question appearance happens when videoPlayer.onplay() is fired
+  // So, always pause video before playing because videoPlayer.play() won't fire videoPlayer.onplay() if it is already playing and user might set new time while the video is running
+  videoPlayer.pause();
+  videoPlayer.play();
   videoPlayer.currentTime = 0;
   question.style.display = "none";
-  videoPlayer.play();
-  manageInterval()
 };
 
 setTimeBtn.addEventListener("click", () => setTime());
 
 const showQuestion = (time) => {
-  console.log(time, videoPlayer.currentTime);
   if (Math.floor(videoPlayer.currentTime) === time) {
     question.style.display = "block";
     videoPlayer.pause();
     clearInterval(myInterval);
+    timeCount.innerHTML = ""
   }
 };
 
 const manageInterval = ()=>{
-  console.log("this is manage interval");
   if (Math.floor(videoPlayer.currentTime) > select.value && select.value != 0) {
-    console.log("fall");
     clearInterval(myInterval);
   }
   if (Math.floor(videoPlayer.currentTime) < select.value) {
-    console.log("call");
     myInterval = setInterval(
       () => showQuestion(parseInt(select.value, 10)),
       1000
@@ -58,6 +56,7 @@ videoPlayer.onplay = ()=>{
     question.style.display = "block";
     videoPlayer.pause();
     videoPlayer.currentTime = 1;
+    timeCount.innerHTML = ""
   }
 }
 
@@ -66,19 +65,22 @@ continueBtn.addEventListener("click", () => continueVideo());
 const continueVideo = () => {
   videoPlayer.play();
   question.style.display = "none";
+  continueBtn.style.display = "none";
+  review.style.display = "none"
+  document.getElementById("submitBtn").style.display = "block";
 };
 
 const checkAnswer = () => {
   if (document.querySelector('input[value="mango"]:checked')) {
     review.innerHTML = "Yay ! your answer is correct !";
+    review.style.color = "green";
+    review.style.display = "block";
     continueBtn.style.display = "block";
     document.getElementById("submitBtn").style.display = "none";
   } else {
-    review.innerHTML = "Your answer was wrong, Please try again !";
+    review.innerHTML = "Wrong answer, Please try again !";
+    review.style.color = "red";
+    review.style.display = "block";
+    question.style.display = "block";
   }
 };
-
-
-// Bugs 
-// 1. doesn't works at t = 0 (update : bug is almost fixed but we have to run the myInterval twice to work things normally)
-// 2. controls by keyboard

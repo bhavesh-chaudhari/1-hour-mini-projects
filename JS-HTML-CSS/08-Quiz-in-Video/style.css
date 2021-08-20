@@ -19,6 +19,7 @@ body{
 }
 
 .container h3{
+    text-align: center;
     margin-top: 2rem;
     color: #fff;
     text-transform: uppercase;
@@ -38,6 +39,7 @@ body{
     padding: 10px;
     background: #fff;
     border: none;
+    width: auto;
 }
 
 option{
@@ -65,6 +67,7 @@ select > option:nth-child(even){
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .videoPlayer{
@@ -91,20 +94,20 @@ select > option:nth-child(even){
 }
 
 .askQuestion{
-    padding: 10px;
+    padding: 20px;
     font-size: 1.5rem;
 }
 
 .askQuestion > p{
     letter-spacing: 2px;
-    color: blueviolet;
+    color: blue;
 }
 
 .options{
     margin-top: 2rem;
 }
 
-.option > input,.option > label{
+input,label{
     cursor: pointer;
 }
 
@@ -142,4 +145,17 @@ select > option:nth-child(even){
     cursor: pointer;
     letter-spacing: 2px;
     font-weight: 500;
+}
+
+@media screen and (max-width:600px) {
+    .videoPlayer,.question{
+        width: 90%;
+    }
+    .question{
+        min-height: 30rem;
+        height: auto;
+    }
+    .questionTime{
+        flex-direction: column;
+    }
 }
