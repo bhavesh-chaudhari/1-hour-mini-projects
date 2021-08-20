@@ -96,7 +96,7 @@ Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library t
 :pen: The tags contain information about the library/framework/concepts/tools used in the project.
 
 3. What decides the `difficulty` level of a project ?  
-:pen: The difficulty level is decided by assumptions. So it will differ for different people. The thumb rule to decide is by assuming the amount of effort it can take to make the project if it is done by someone who is beginner in working with the tools used in the project.The difficulty levels are tea time(i.e. can be done before your tea gets cold :eyes: :p ), easy, moderate and challenging.
+:pen: The difficulty level is decided by assumptions. So it will differ for different people. The thumb rule to decide is by assuming the amount of effort it can take to make the project if it is done by someone who is beginner in working with the tools used in the project.The difficulty levels are - tea time(i.e. project can be done before your tea gets cold :eyes: :p ), easy, easy to moderate, moderate, moderate to challenging and challenging.
 
 4. How are the `categories` decided ?  
 :pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
