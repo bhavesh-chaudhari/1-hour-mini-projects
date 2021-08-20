@@ -21,6 +21,7 @@
 | `05`  | [Edit Image Source and Custom Context Menu](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/05-Image-Source-Change-%26-Custom-Right-Click-Menu) |*Image Source change, Custom Right Click Menu, Random Unsplash Image*|[Read Here](#5-edit-image-source-and-custom-context-menu)|**moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/05-Image-Source-Change-&-Custom-Right-Click-Menu/index.html) |
 | `06`  | [Particle JS Example](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/06-Particles-Js) |*Particle Js Example, Canvas, Animation*|[Read Here](#6-particle-js-example)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/06-Particles-Js/index.html) |
 | `07`  | [Page Scroll Progress Bar](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/07-Page-Scroll-Progress-Bar) |*Page Scroll, Progress Bar*|[Read Here](#7-page-scroll-progress-bar)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/07-Page-Scroll-Progress-Bar/index.html) |
+| `08`  | [Quiz in Video](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/08-Quiz-in-Video) |*HTML video properties, HTML Media API*|[Read Here](#8-quiz-in-video)|**challenging**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/08-Quiz-in-Video/index.html) |
 
 ##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
@@ -66,6 +67,10 @@ Giving an option to change the image source and making custom context menu on ri
 ### 7. Page Scroll Progress Bar
 
 Live Progress Bar which indicates the percentage of page height scrolled.
+
+### 8. Quiz in Video
+
+This project involves interaction with html video. I got the idea of this project while i was watching a coursera video and suddenly a quiz appeared in between the video. I thought this functionality is cool so i tried to implement it using vanilla js. A lot more can be done with this project but for now only the question appearance functionality is implemented.  
 
 ## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
