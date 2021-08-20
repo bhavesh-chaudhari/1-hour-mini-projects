@@ -90,7 +90,7 @@ Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library t
 
 ### FAQ -
 1. What does `1-Hour-Mini-Projects` mean ?  
-:pen: It means that each project in this repository is doable in an hour if one has the basic understanding of the programming language or library/framework used in the project and wants to try it out by following along the given code, but it doesn't necessarily means that the project was made in an hour. Sometimes it takes more than an hour to make some projects since it involves deciding the project idea, some pre-research and a little bit of brushing up followed by actual coding. 
+:pen: It means that each project in this repository is doable in an hour if one has the basic understanding of the programming language or library/framework used in the project and wants to try it out by following along the given code, but it doesn't necessarily mean that the project was made in an hour. Sometimes it takes more than an hour to make some projects since it involves deciding the project idea, some pre-research and a little bit of brushing up followed by actual coding. 
 
 2. What do the  `tags` imply  ?  
 :pen: The tags contain information about the library/framework/concepts/tools used in the project.
