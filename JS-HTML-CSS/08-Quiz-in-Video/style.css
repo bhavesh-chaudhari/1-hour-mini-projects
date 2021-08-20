@@ -53,13 +53,14 @@ option{
 }
 
 select > option:nth-child(odd){
-    background: cyan;
+    background: #1DA1F2;
     border: none;
 }
 
 select > option:nth-child(even){
-    background: turquoise;
+    background: #fff;
     border: none;
+    cursor: pointer;
 }
 
 .videoDiv{
