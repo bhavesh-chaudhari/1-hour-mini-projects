@@ -50,7 +50,7 @@ span{
     height: 10px;
     top: 0;
     width: 0%;
-    transition: opacity 0.5s;
+    transition: opacity 0.7s ease;
 }
 
 
