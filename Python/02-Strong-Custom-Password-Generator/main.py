@@ -49,7 +49,6 @@ def has_lowercase_letters():
         # print(password)
     return
 
-
 def has_punctuations():
     print("Do you want punctuations in the password ? (yes/no)")
     response = input()
@@ -98,8 +97,6 @@ def set_custom_password():
         print("You haven't customized anything...")
         set_random_password()
     return    
-        
-   
 
 def check_password_type():
     print(
