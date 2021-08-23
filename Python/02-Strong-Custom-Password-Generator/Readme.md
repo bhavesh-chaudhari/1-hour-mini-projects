@@ -14,7 +14,7 @@ Enter Response(csp/rsp) : csp
 
 <= Default password length is 8 =>
 
-Do you want to change the default password length ? (yes/no) : zasjhs
+Do you want to change the default password length ? (yes/no) : some random response
 Not a valid response, please try again !
 Do you want to change the default password length ? (yes/no) : yes
 Enter new password length(number): 11
