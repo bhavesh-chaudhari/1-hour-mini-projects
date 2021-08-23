@@ -84,6 +84,7 @@ Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library t
 
 ### 2. Strong Custom Password Generator
 In this project user gets an option to either set a custom password or to get a random strong password.
+See the [Output here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/02-Strong-Custom-Password-Generator/Readme.md)
 
 
 
