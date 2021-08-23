@@ -1,8 +1,6 @@
 import random
 import string
 
-print("<=== Strong Custom Password Generator - 1HMP ===>\n")
-
 def change_length():
     want_to_change_length = input(
         "Do you want to change the default password length ? (yes/no) : "
@@ -11,7 +9,7 @@ def change_length():
         try:
             new_length = int(input("Enter new password length(number): ")) 
             change_length.new_length = new_length
-            print(f"The default password length was changed to {new_length}")
+            print(f"The default password length was changed to {new_length}\n")
         except:
             print("The password length must be numerical")
             change_length()
@@ -81,15 +79,15 @@ def set_custom_password():
     if hasattr(has_punctuations, "password"):
         password = has_punctuations.password
         password_string = "".join(random.sample(password, password_length))
-        print(f"Your custom password is is as follows: \n{password_string}")
+        print(f"Your custom password is as follows: \n{password_string}")
     elif hasattr(has_lowercase_letters, "password"):
         password = has_lowercase_letters.password
         password_string = "".join(random.sample(password, password_length))
-        print(f"Your custom password is is as follows: \n{password_string}")
+        print(f"Your custom password is as follows: \n{password_string}")
     elif hasattr(has_uppercase_letters, "password"):
         password = has_uppercase_letters.password
         password_string = "".join(random.sample(password, password_length))
-        print(f"Your custom password is is as follows: \n{password_string}")
+        print(f"Your custom password is as follows: \n{password_string}")
     return    
         
 def set_random_password():

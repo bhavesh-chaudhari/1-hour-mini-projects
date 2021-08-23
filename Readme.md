@@ -81,6 +81,9 @@ Simple illustration of useState, useEffect, useRef hooks and conditional renderi
 ### 1. Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js).
 
+### 2. Strong Custom Password Generator
+In this project user gets an option to either set a custom password or to get a random strong password.
+
 
 
 <h1 align = "center" >The Wild West</h1>
