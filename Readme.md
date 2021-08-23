@@ -32,6 +32,7 @@
 | Project        | Code   |Tags | Description |Difficulty|Outcome|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 |`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#1-extracting-top-billionaires-info-with-beautiful-soup)|**challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
+|`02`|[Strong Custom Password Generator](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/02-Strong-Custom-Password-Generator)|*random module, string module*|[Read Here](#2-strong-custom-password-generator)|**moderate to challenging**|[See Output](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/02-Strong-Custom-Password-Generator/Readme.md)|
 ## :page_with_curl: Descriptions -
 
  1. [```JS-HTML-CSS```](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects#fountain_pen-js-html-css-projects-description)
