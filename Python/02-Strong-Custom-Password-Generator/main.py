@@ -69,6 +69,12 @@ def has_punctuations():
         # print(password)
     return
 
+def set_random_password():
+    password = []
+    password.extend(list(string.ascii_uppercase) + list(string.ascii_lowercase) + list(string.punctuation))
+    password_string = "".join(random.sample(password, 8))
+    print(f"\nThis is a random strong password generated for you : {password_string}\n")     
+
 def set_custom_password():
     print("\n<= Default password length is 8 =>\n")
     change_length()
@@ -88,13 +94,12 @@ def set_custom_password():
         password = has_uppercase_letters.password
         password_string = "".join(random.sample(password, password_length))
         print(f"Your custom password is as follows: \n{password_string}")
+    else:
+        print("You haven't customized anything...")
+        set_random_password()
     return    
         
-def set_random_password():
-    password = []
-    password.extend(list(string.ascii_uppercase) + list(string.ascii_lowercase) + list(string.punctuation))
-    password_string = "".join(random.sample(password, 8))
-    print(f"\nThis is a strong password generated for you : {password_string}\n")        
+   
 
 def check_password_type():
     print(
