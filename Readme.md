@@ -76,7 +76,7 @@ This project involves interaction with html video. I got the idea of this projec
 
 ### 9. Syntax Highlighting In Website
 
-A lot of websites show code on their platform. So for making the code look clean and attractive, syntax highlighting is necessary. In this project [highlight.js](https://highlightjs.org/) is used for syntax highlighting and [clipboard.js](https://clipboardjs.com/) is used for copying the code to clipboard. Using these libraries is simple and doesn't require much time.
+A lot of websites show code on their platform. So for making the code look clean and attractive, syntax highlighting is necessary. In this project [highlight.js](https://highlightjs.org/) is used for syntax highlighting and [clipboard.js](https://clipboardjs.com/) is used for copying the code to clipboard. As an example i have highlighted only three languages in the project but highlight.js offers highlighting for many other languages. Using these libraries is simple and doesn't require much time.
 
 ## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
