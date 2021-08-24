@@ -22,6 +22,7 @@
 | `06`  | [Particle JS Example](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/06-Particles-Js) |*Particle Js Example, Canvas, Animation*|[Read Here](#6-particle-js-example)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/06-Particles-Js/index.html) |
 | `07`  | [Page Scroll Progress Bar](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/07-Page-Scroll-Progress-Bar) |*Page Scroll, Progress Bar*|[Read Here](#7-page-scroll-progress-bar)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/07-Page-Scroll-Progress-Bar/index.html) |
 | `08`  | [Quiz in Video](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/08-Quiz-in-Video) |*HTML video properties, HTML Media API*|[Read Here](#8-quiz-in-video)|**challenging**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/08-Quiz-in-Video/index.html) |
+| `09`  | [Syntax Highlighting In Website](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/09-Syntax-Highlighting-In-Website) |*highlight.js, clipboard.js, copying text to clipboard*|[Read Here](#9-syntax-highlighting-in-website)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/09-Syntax-Highlighting-In-Website/index.html) |
 
 ##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
@@ -72,6 +73,10 @@ Live Progress Bar which indicates the percentage of page height scrolled.
 ### 8. Quiz in Video
 
 This project involves interaction with html video. I got the idea of this project while i was watching a coursera video and suddenly a quiz appeared in between the video. I thought this functionality is cool so i tried to implement it using vanilla js. A lot more can be done with this project but for now only the question appearance functionality is implemented.  
+
+### 9. Syntax Highlighting In Website
+
+A lot of websites show code on their platform. So for making the code look clean and attractive, syntax highlighting is necessary. In this project [highlight.js](https://highlightjs.org/) is used for syntax highlighting and [clipboard.js](https://clipboardjs.com/) is used for copying the code to clipboard. Using these libraries is simple and doesn't require much time.
 
 ## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
