@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Essential link to use highlight js -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/night-owl.min.css"
+        integrity="sha512-i5X6Fdn/ZqvGSqPrdMa3FgcpXM/Nr6YccSKFYT93zljl/HZDEpvBbE5Pxp91eiWGccZLrL/LDQJd7fjTRYsVaA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <title>09 Syntax Highlighting in Website - 1HMP</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="container-heading">
+                <h1>HTML</h1>
+            </div>
+            <div class="code">
+            <pre><button class="btn" id="copy-html" data-clipboard-target="#language-html" >copy</button><code id="language-html" class="language-html">&lthead&gt
+&ltmeta charset="UTF-8"&gt
+&ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+&ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+&ltlink rel="stylesheet" href="style.css"&gt
+&lttitle&gtDocument&lt/title&gt
+&lt/head&gt</code></pre>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container-heading">
+                <h1>Python</h1>
+            </div>
+            <div class="code">
+                <pre><button class="btn" id="copy-python" data-clipboard-target="#language-python" >copy</button><code id="language-python" class="language-python">import random
+import string
+
+def change_length():
+    want_to_change_length = input(
+        "Do you want to change the default password length ? (yes/no) : "
+    )
+    if want_to_change_length == "yes":
+        try:
+            new_length = int(input("Enter new password length(number): "))
+            change_length.new_length = new_length
+            print(f"The default password length was changed to {new_length}\n")
+        except:
+            print("The password length must be numerical")
+            change_length()
+    elif want_to_change_length == "no":
+        change_length.new_length = 8
+    else:
+        print("Not a valid response, please try again !")
+        change_length()
+    return</code></pre>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="container-heading">
+                <h1>C++</h1>
+            </div>
+            <div class="code">
+                <pre><button class="btn" id="copy-cpp" data-clipboard-target="#language-cpp"  >copy</button><code id="language-cpp" class="language-cpp">#include &ltiostream&gt
+using namespace std;
+ 
+int main()
+{
+    int arr[5];
+    arr[0] = 5;
+    arr[2] = -10;
+ 
+    // this is same as arr[1] = 2
+    arr[3 / 2] = 2;
+    arr[3] = arr[0];
+ 
+    cout << arr[0] << " " << arr[1] << " " << arr[2] << " "
+         << arr[3];
+ 
+    return 0;
+}</code></pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts for highlight js, must be kept in this order -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <!-- script for Clipboard Js -->
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.8/dist/clipboard.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
