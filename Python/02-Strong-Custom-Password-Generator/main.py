@@ -116,19 +116,31 @@ def set_custom_password():
     password_length = change_length.new_length
     if hasattr(has_digits, "password"):
         password = has_digits.password
-        password_string = "".join(random.sample(password, password_length))
+        try:
+            password_string = "".join(random.sample(password, password_length))
+        except:
+            password_string = "".join(random.choices(password,k = password_length))    
         print(f"Your custom password is as follows: \n{password_string}")
     elif hasattr(has_punctuations, "password"):
         password = has_punctuations.password
-        password_string = "".join(random.sample(password, password_length))
+        try:
+            password_string = "".join(random.sample(password, password_length))
+        except:
+            password_string = "".join(random.choices(password,k = password_length))    
         print(f"Your custom password is as follows: \n{password_string}")
     elif hasattr(has_lowercase_letters, "password"):
         password = has_lowercase_letters.password
-        password_string = "".join(random.sample(password, password_length))
+        try:
+            password_string = "".join(random.sample(password, password_length))
+        except:
+            password_string = "".join(random.choices(password,k = password_length))    
         print(f"Your custom password is as follows: \n{password_string}")
     elif hasattr(has_uppercase_letters, "password"):
         password = has_uppercase_letters.password
-        password_string = "".join(random.sample(password, password_length))
+        try:
+            password_string = "".join(random.sample(password, password_length))
+        except:
+            password_string = "".join(random.choices(password,k = password_length))    
         print(f"Your custom password is as follows: \n{password_string}")
     else:
         print("You haven't customized anything...")
