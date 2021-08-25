@@ -72,7 +72,7 @@ Live Progress Bar which indicates the percentage of page height scrolled.
 
 ### 8. Quiz in Video
 
-This project involves interaction with html video. I got the idea of this project while i was watching a coursera video and suddenly a quiz appeared in between the video. I thought this functionality is cool so i tried to implement it using vanilla js. A lot more can be done with this project but for now only the question appearance functionality is implemented.  
+This project involves interaction with html video. I got the idea of this project while i was watching a coursera video and suddenly a quiz appeared in between the video. This kind of quiz is helpful to checkout if the learner has learned from the video till a certain point or whether the learner needs a revision. I thought this functionality is cool so i tried to implement it using vanilla js. A lot more can be done with this project but for now only the question appearance functionality is implemented.  
 
 ### 9. Syntax Highlighting In Website
 
