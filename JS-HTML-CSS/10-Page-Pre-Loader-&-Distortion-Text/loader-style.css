@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+.loader-wrapper{
+    opacity: 1;
+    transition: opacity 0.7s linear;
+}
+
+.loader{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    background: #fff;
+    z-index: 1000;
+}
+
+.loader > div{
+    width: 50%;
+}
+
+.loader-heading{
+    position: relative;
+}
+
+.loader-heading h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: #00bfa6;
+    font-size: 2.5rem;
+}
+
+.loader-heading h1:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #fff;
+    width: 0%;
+    height: 100%;
+    animation: show 2.5s linear 1;
+}
+
+@keyframes show {
+    0%{
+        width: 100%;
+    }
+}
+
+/* 
+=========
+To make an image responsive set its width to some % of parent and height to auto.
+*/
+.loader-image img{
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width:800px) {
+    .loader-heading h1{
+        font-size: 2rem;
+    }
+    .loader > div{
+        width: 100%;
+    }
+}
