@@ -14,13 +14,13 @@ const setOptions = () => {
   }
 };
 
-videoPlayer.addEventListener('loadeddata',()=>setOptions())
+videoPlayer.addEventListener("loadeddata", () => setOptions());
 
 const setTime = () => {
   timeCount.style.opacity = 1;
   timeCount.innerHTML = `<p>The Question will appear in ${select.value} second/s</p>`;
   // All our functionality for question appearance happens when videoPlayer.onplay() is fired
-  // So, always pause video before playing because videoPlayer.play() won't fire videoPlayer.onplay() if it is already playing and user might set new time while the video is running
+  // So, always pause video before playing because videoPlayer.play() won't fire videoPlayer.onplay if it is already playing and user might set new time while the video is running
   videoPlayer.pause();
   videoPlayer.play();
   videoPlayer.currentTime = 0;
@@ -29,44 +29,45 @@ const setTime = () => {
 
 setTimeBtn.addEventListener("click", () => setTime());
 
-const showQuestion = (time) => {
-  if (Math.floor(videoPlayer.currentTime) === time) {
+const showQuestion = () => {
+  if (videoPlayer.currentTime >= parseInt(select.value, 10)) {
+    // console.log(videoPlayer.currentTime);
     question.style.display = "block";
     videoPlayer.pause();
-    clearInterval(myInterval);
-    timeCount.innerHTML = ""
+    timeCount.innerHTML = "";
+    videoPlayer.removeEventListener("timeupdate", startTimeUpdate);
   }
 };
 
-const manageInterval = ()=>{
-  if (Math.floor(videoPlayer.currentTime) > select.value && select.value != 0) {
-    clearInterval(myInterval);
+const startTimeUpdate = () => {
+  {
+    // console.log("timeupdate");
+    if (videoPlayer.currentTime <= parseInt(select.value, 10) + 1) {
+      showQuestion();
+    }
   }
-  if (Math.floor(videoPlayer.currentTime) < select.value) {
-    myInterval = setInterval(
-      () => showQuestion(parseInt(select.value, 10)),
-      1000
-    );
-  }
-}
+};
 
-videoPlayer.onplay = ()=>{
-  manageInterval()
-  if (select.value == 0 && videoPlayer.currentTime < 1) {
-    question.style.display = "block";
-    videoPlayer.pause();
-    videoPlayer.currentTime = 1;
-    timeCount.innerHTML = ""
+videoPlayer.onplay = () => {
+  // console.log("played");
+  if (videoPlayer.currentTime <= parseInt(select.value, 10)) {
+    videoPlayer.addEventListener("timeupdate", startTimeUpdate);
   }
-}
+  if(videoPlayer.currentTime > parseInt(select.value, 10)){
+    videoPlayer.removeEventListener("timeupdate", startTimeUpdate);
+  }
+};
 
 continueBtn.addEventListener("click", () => continueVideo());
 
 const continueVideo = () => {
+  if (parseInt(select.value, 10) === 0) {
+    videoPlayer.currentTime = 0.1;
+  }
   videoPlayer.play();
   question.style.display = "none";
   continueBtn.style.display = "none";
-  review.style.display = "none"
+  review.style.display = "none";
   document.getElementById("submitBtn").style.display = "block";
 };
 
