@@ -30,6 +30,7 @@ const setTime = () => {
 setTimeBtn.addEventListener("click", () => setTime());
 
 const showQuestion = () => {
+  // console.log("I am showQuestion function")
   if (videoPlayer.currentTime >= parseInt(select.value, 10)) {
     // console.log(videoPlayer.currentTime);
     question.style.display = "block";
@@ -42,7 +43,10 @@ const showQuestion = () => {
 const startTimeUpdate = () => {
   {
     // console.log("timeupdate");
-    if (videoPlayer.currentTime <= parseInt(select.value, 10) + 1) {
+    if (
+      videoPlayer.currentTime > parseInt(select.value, 10) - 1 &&
+      videoPlayer.currentTime <= parseInt(select.value, 10) + 1
+    ) {
       showQuestion();
     }
   }
