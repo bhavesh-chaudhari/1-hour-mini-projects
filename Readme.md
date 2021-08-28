@@ -109,12 +109,16 @@ See the [Output here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/
 :pen: It means that each project in this repository is doable in an hour if one has the basic understanding of the programming language or library/framework used in the project and wants to try it out by following along the given code, but it doesn't necessarily mean that the project was made in an hour. Sometimes it takes more than an hour to make some projects since it involves deciding the project idea, some pre-research and a little bit of brushing up followed by actual coding. 
 
 2. What do the  `tags` imply  ?  
-:pen: The tags contain information about the library/framework/concepts/tools used in the project.
+:pen: The tags contain information about the library/framework/concepts/methods/tools used in the project.
 
-3. What decides the `difficulty` level of a project ?  
+3. What is there in the description ? 
+:pen: Description has more infomation about the projects. It explains the project and
+ sometimes has some information about the essentials used in the project.
+ 
+4. What decides the `difficulty` level of a project ?  
 :pen: The difficulty level is decided by assumptions. So it will differ for different people. The thumb rule to decide is by assuming the amount of effort it can take to make the project if it is done by someone who is beginner in working with the tools used in the project.The difficulty levels are - tea time(i.e. project can be done before your tea gets cold :eyes: :p ), easy, easy to moderate, moderate, moderate to challenging and challenging.
 
-4. How are the `categories` decided ?  
+5. How are the `categories` decided ?  
 :pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
 
 
