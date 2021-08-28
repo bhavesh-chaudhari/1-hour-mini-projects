@@ -111,7 +111,7 @@ See the [Output here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/
 2. What do the  `tags` imply  ?  
 :pen: The tags contain information about the library/framework/concepts/methods/tools used in the project.
 
-3. What is there in the description ? 
+3. What is there in the description ?  
 :pen: Description has more infomation about the projects. It explains the project and
  sometimes has some information about the essentials used in the project.
  
