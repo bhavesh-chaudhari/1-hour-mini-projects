@@ -29,7 +29,7 @@
 ##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
-|`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|*useState, useEffect, useRef, conditional rendering*|[Read Here](#1-add-random-colored-div)|easy to moderate|[Live Demo](https://01-add-random-colored-div-1hour-mini-projects-bhavesh-c.netlify.app/)|
+|`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|*useState, useEffect, useRef, conditional rendering*|[Read Here](#1-add-random-colored-div)|**easy to moderate**|[Live Demo](https://01-add-random-colored-div-1hour-mini-projects-bhavesh-c.netlify.app/)|
 
 ## <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python
 | Project        | Code   |Tags | Description |Difficulty|Outcome|
