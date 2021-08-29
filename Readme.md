@@ -36,6 +36,7 @@
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
 |`01`|[Extracting top billionaires info with Beautiful Soup](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup)|*Beautiful Soup, Web Scraping*|[Read Here](#1-extracting-top-billionaires-info-with-beautiful-soup)|**challenging**|[Extracted Data](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/01-Extracting-top-billionaires-Info-with-Beautiful-Soup/billionaires_data.js)|
 |`02`|[Strong Custom Password Generator](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/02-Strong-Custom-Password-Generator)|*exception handling, random module, string module*|[Read Here](#2-strong-custom-password-generator)|**challenging**|[See Output](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/02-Strong-Custom-Password-Generator/Readme.md)|
+|`03`|[Simple Quick URL Shortener](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/Python/03-Simple-Quick-URL-Shortener)|*Pyshorteners, Tinyurl*|[Read Here](#3-simple-quick-url-shortener)|**tea time**|[See Output](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/03-Simple-Quick-URL-Shortener/Readme.md)|
 ## :page_with_curl: Descriptions -
 
  1. [```JS-HTML-CSS```](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects#fountain_pen-js-html-css-projects-description)
@@ -97,7 +98,8 @@ Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library t
 In this project user gets an option to either set a custom password or to get a random strong password. There is proper exception handling in the project so unusual/invalid response won't make our program crash. This project is challenging, because it is a bit lengthier to be done in an hour by following along the given code. But irrespective of the time it can take, it is a good project for practice.
 See the [Output here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/main/Python/02-Strong-Custom-Password-Generator/Readme.md)
 
-
+### 3. Simple Quick URL Shortener
+A project to make aware about [pyshorteners Library](https://pyshorteners.readthedocs.io/en/latest/). Most of the projects that belong to **tea time** difficulty are like this.
 
 <h1 align = "center" >The Wild West</h1>
 
@@ -116,7 +118,13 @@ See the [Output here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/
  sometimes has some information about the essentials used in the project.
  
 4. What decides the `difficulty` level of a project ?  
-:pen: The difficulty level is decided by assumptions. So it will differ for different people. The thumb rule to decide is by assuming the amount of effort it can take to make the project if it is done by someone who is beginner in working with the tools used in the project.The difficulty levels are - tea time(i.e. project can be done before your tea gets cold :eyes: :p ), easy, easy to moderate, moderate, moderate to challenging and challenging.
+:pen: The difficulty level is decided by assumptions. So it will differ for different people. The thumb rule to decide is by assuming the amount of effort it can take to make the project if it is done by someone who is beginner in working with the tools used in the project.The difficulty levels are - 
+- tea time - You can easily do these projects while you are having a break time, snack or tea/refreshment. These projects quickly introduces something new(i.e. never introduced here before).
+- easy
+- easy to moderate
+- moderate
+- moderate to challenging
+- challenging.
 
 5. How are the `categories` decided ?  
 :pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
