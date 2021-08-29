@@ -10,4 +10,4 @@ shortener = pyshorteners.Shortener()
 # shortened link
 shortened_link = shortener.tinyurl.short(link_to_be_shortened)
 
-print(shortened_link)
+print(f'Your shortened link is : {shortened_link}')
