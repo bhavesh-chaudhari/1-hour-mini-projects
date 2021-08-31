@@ -8,14 +8,15 @@
 }
 
 body{
-    background:hsl(209, 61%, 16%)
+    /* background:hsl(209, 61%, 16%) */
+    background:#fff
 }
 
 h1{
     letter-spacing: 3px;
     text-align: center;
     padding: 2px;
-    color: white;
+    color: black;
     text-transform: uppercase;
     font-weight: lighter;
 }
@@ -23,7 +24,7 @@ h1{
 p{
     margin: 0.5rem;
     letter-spacing: 2px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 
@@ -44,7 +45,7 @@ p{
 .btn{
     padding: 7px;
     background: transparent;
-    color: azure;
+    color: black;
     border: none;
     box-shadow: 0 0 0 1px violet;
     cursor: pointer;
@@ -55,7 +56,6 @@ p{
 }
 
 .btn:hover{
-    color: white;
     box-shadow: 0 0 3px 2px blueviolet;
 }
 

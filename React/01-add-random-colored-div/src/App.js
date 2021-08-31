@@ -5,7 +5,7 @@ import Div from "./Components/Div";
 const App = () => {
   
   // useState() for keeping account of number of Divs
-  const [count, setCount] = useState(2);
+  const [count, setCount] = useState(3);
   const clrBtn = useRef(null)
   
   // An array for storing all the current Div Components

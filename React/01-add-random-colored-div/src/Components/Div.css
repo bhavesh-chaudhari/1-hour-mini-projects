@@ -25,6 +25,7 @@
     text-align: center;
     letter-spacing: 1px;
     max-width: 90%;
+    font-weight: bolder;
 }
 
 @media screen and (max-width:800px) {
