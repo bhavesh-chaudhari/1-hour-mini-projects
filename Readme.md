@@ -90,7 +90,7 @@ A pre loader for website which can be set upto our desired time. But many times,
 ### 1. Add Random Colored Div
 Simple illustration of useState, useEffect, useRef hooks and conditional rendering.
 ### 2. Variation In Sum of First 30 Natural Numbers
-In this project [Chart.js](https://www.chartjs.org/) is used to build the charts which represent the variation in sum of first 30 natural numbers.
+In this project [Chart.js](https://www.chartjs.org/) is used in order to build charts which represent the variation in sum of first 30 natural numbers.
 Here i have dynamically implemented 6 different chart types namely Line, Bar, Pie, Doughnut, Polar Area Chart and Radar Chart.
 
 ## :fountain_pen:  Python-Projects-Description
