@@ -1,3 +1,7 @@
+# Instructions to Run
+- Prerequisite : [Node JS](https://nodejs.org/en/) should be installed.
+- run **`npm i && npm start`** in terminal after navigating to the project folder.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
