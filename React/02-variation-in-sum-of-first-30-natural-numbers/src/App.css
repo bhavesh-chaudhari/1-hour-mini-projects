@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.main-chart{
+    width: 80%;
+    height: 400px;
+}
+
+select{
+    margin-top: 2rem;
+    padding: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    color: tomato;
+    letter-spacing: 1px;
+}
+
+select > option{
+    background: #fff;
+}
+
+@media screen and (max-width:600px) {
+    .main-chart{
+        width: 98%;
+        padding: 10px;
+    }
+}
