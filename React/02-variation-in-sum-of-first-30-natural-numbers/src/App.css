@@ -13,11 +13,6 @@
     background: #fff;
 }
 
-.main-chart{
-    width: 80%;
-    height: 400px;
-}
-
 select{
     margin-top: 2rem;
     padding: 5px;
@@ -33,9 +28,3 @@ select > option{
     background: #fff;
 }
 
-@media screen and (max-width:600px) {
-    .main-chart{
-        width: 98%;
-        padding: 10px;
-    }
-}

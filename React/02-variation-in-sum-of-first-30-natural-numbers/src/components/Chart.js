@@ -1,4 +1,5 @@
 import React from 'react'
+import "./Chart.css"
 // npm install --save react-chartjs-2 chart.js
 // # or
 // yarn add react-chartjs-2 chart.js
