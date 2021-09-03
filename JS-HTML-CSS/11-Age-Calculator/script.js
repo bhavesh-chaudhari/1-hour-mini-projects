@@ -51,17 +51,7 @@ const calculateAge = ()=>{
   const birthDate = new Date(month1 + "/" + date1 + "/" + year1);
   const atDate = new Date(month2 + "/" + date2 + "/" + year2);
 
-     console.log(birthDate, atDate)
-
-    /* calculating difference between dates, short-trick from SO - 
-    https://stackoverflow.com/questions/3224834/get-difference-between-2-dates-in-javascript */
-
-  // diffTime = Math.abs(atDate - birthDate);
-  // const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  // console.log(diffTime + " milliseconds");
-  // console.log(diffDays + " days");
-
-  // console.log(atDate.getDay())
+    console.log(birthDate.getYear(), atDate)
 
     showOutput(birthDate, atDate)
 }
@@ -78,38 +68,110 @@ const showOutput = (birthdate, atdate) =>{
     console.log(atSomeDate);
     const dayDuration = 24;
 
-    // Calculate difference in years, remaining months and days.
-    // const diffYears = Math.abs(birthYear.value - atYear.value);
-    // const diffRemainingMonths = Math.abs((selectAtMonth.value - 1)   - selectBirthMonth.value)
-    // const diffRemainingDays_Year = (inputDate2.value - inputDate1.value) > 0 ? (inputDate2.value - inputDate1.value) : 0
+    // Total difference in years and remaining months, days.
+    const daysInMonth = (month, year)=>{
+      return new Date(year, month, 0).getDate()
+    }
 
-    // // Calculate total difference in months and remaining days
-    // const totalDiffMonths = (diffYears * 12) + atdate.getMonth() - birthdate.getMonth() // excluding the months which contain dates
-    // const diffRemainingDays_Month = Math.abs(inputDate2.value - inputDate1.value)
-    // console.log(totalDiffMonths);
+    let timeDiffInSeconds = Math.abs(atdate - birthdate) / 1000;
+    timeDiff = timeDiffInSeconds / (60*60*24)
+    diffYears = Math.abs(Math.floor(timeDiff/365.25))
 
-    // Experimentation
-
-    const timeDiffInMs = Math.abs(atdate - birthdate);
-    const timeDiffInMinutes = timeDiffInMs/(1000*60)
-    const diffYears = Math.floor(timeDiffInMinutes/(60*24*365))
-    console.log(diffYears);
-
-
-
+    let RemainingDays_Year = (Number(inputDate2.value) >= Number(inputDate1.value)) ? Number(inputDate2.value) - Number(inputDate1.value) : (daysInMonth(selectAtMonth.value - 1, atYear.value) - Math.abs((Number(inputDate2.value) - Number(inputDate1.value))));
+    // RemainingDays_Year = 
+    console.log(RemainingDays_Year)
     
+    // let RemainingMonths = (selectAtMonth.value > selectBirthMonth.value) ? Math.abs(selectAtMonth.value  - selectBirthMonth.value) : 12 - Math.abs(selectAtMonth.value  - selectBirthMonth.value)
+
+    if(selectAtMonth.value > selectBirthMonth.value){
+      RemainingMonths = Math.abs(selectAtMonth.value - selectBirthMonth.value); 
+    }
+    else if (selectAtMonth.value < selectBirthMonth.value){
+      RemainingMonths = 12 - Math.abs(selectAtMonth.value  - selectBirthMonth.value)
+    }
+    else if(selectAtMonth.value == selectBirthMonth.value){
+      RemainingMonths = 0
+    }
+
+
+      console.log(RemainingMonths);
+    // Check if the month has completed
+    RemainingMonths = (inputDate2.value <= inputDate1.value && selectAtMonth.value > selectBirthMonth.value) ? RemainingMonths - 1 : RemainingMonths ;
+    console.log(RemainingMonths);
+    RemainingMonths = (selectAtMonth.value == selectBirthMonth.value && inputDate2.value > inputDate1.value) ? 0 : RemainingMonths ;
+    console.log(RemainingMonths);
+
+    console.log(daysInMonth(selectAtMonth.value, atYear.value));
+    console.log(diffYears);
+    console.log(RemainingMonths);
+    console.log(RemainingDays_Year)
+
+    // Total difference in months and remaining days
+    let totalDiffMonths = (diffYears*12) + RemainingMonths
+    RemainingDays_Month = RemainingDays_Year
+    console.log(totalDiffMonths)
+    console.log(RemainingDays_Month)
+
+    // Total difference in weeks and remaining days
+    let totalDiffWeeks = Math.floor(timeDiffInSeconds/(7*24*60*60));
+    RemainingDays_Week = Math.round((timeDiffInSeconds / (7 * 24 * 60 * 60) % 1) * 7)
+    console.log(totalDiffWeeks);
+    console.log(RemainingDays_Week)
+
+    // Total difference in hours
+    let totalHours = Math.floor(timeDiffInSeconds/(60*60))
+
+    let totalDays = Math.floor(totalHours/24)
+
 
     outputContent.innerHTML = "";
-    // outputContent.innerHTML += `
-    //             <h3>At ${atSomeDate} your Age is :</h3>
-    //             <ul>
-    //                 ${diffYears > 0 ? `<li>${diffYears} ${diffYears > 1 ? "years" : "year"} ${diffRemainingMonths} ${diffRemainingMonths == 0 || diffRemainingMonths ==  1 ? "month" : "months"} &  ${diffRemainingDays_Year} ${diffRemainingDays_Year > 1 ? "days" : "day"  }</li> `: ""}
-    //                 ${totalDiffMonths > 0 ? `<li>${totalDiffMonths} ${totalDiffMonths > 1 ? "months" : "month"} and ${diffRemainingDays_Month} ${diffRemainingDays_Month > 1 ? "days" : "day"}</li>` : ""}
-    //                 <li>1039 weeks 0 days</li>
-    //                 <li>7,273 days</li>
-    //                 <li>174,552 hours</li>
-    //                 <li>10,473,120 minutes</li>
-    //                 <li>628,387,200 seconds</li>
-    //             </ul>
-    // `;
+   if ((atdate - birthdate) > 0) {
+     outputContent.innerHTML += `
+                <h3>At ${atSomeDate} your Age is :</h3>
+                <ul>
+                    ${
+                      diffYears > 0
+                        ? `<li>${diffYears} ${
+                            diffYears > 1 ? "years" : "year"
+                          } ${RemainingMonths} ${
+                            RemainingMonths == 0 || RemainingMonths == 1
+                              ? "month"
+                              : "months"
+                          } &  ${RemainingDays_Year} ${
+                            RemainingDays_Year > 1 ? "days" : "day"
+                          }</li> `
+                        : ""
+                    }
+                    ${
+                      totalDiffMonths > 0
+                        ? `<li>${totalDiffMonths} ${
+                            totalDiffMonths > 1 ? "months" : "month"
+                          } and ${RemainingDays_Month} ${
+                            RemainingDays_Month > 1 ? "days" : "day"
+                          }</li>`
+                        : ""
+                    }
+                    ${
+                      totalDiffWeeks > 0
+                        ? `<li>${totalDiffWeeks} weeks ${RemainingDays_Week} days</li>`
+                        : ""
+                    }
+                    ${totalDays > 0 ? `<li>${totalDays} days</li>` : ""}
+                    ${totalHours > 0 ? `<li>${totalHours} hours</li>` : ""}
+                    ${
+                      timeDiffInSeconds / 60 > 0
+                        ? `<li>${timeDiffInSeconds / 60} minutes</li>`
+                        : ""
+                    }
+                    ${
+                      timeDiffInSeconds > 0
+                        ? `<li>${timeDiffInSeconds} seconds</li> `
+                        : ""
+                    }
+                </ul>
+    `;
+   } else {
+     outputContent.innerHTML =
+       "Birth Date Must be earlier than the day at which you want to calculate the age !";
+   }
 }
