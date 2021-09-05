@@ -17,6 +17,7 @@
     position: sticky;
     top: 0;
     border-bottom: 1px solid #d4fd02;
+    width: 100%;
 }
 
 .navbar{
@@ -82,11 +83,11 @@ a:hover{
     color: #111111;
 }
 
-/* Hamburger Styles */
-.hamburger-menu{
+/* Menu Styles */
+.nav-menu{
     position: absolute;
-    display: flex;
-    top: 0;
+    top: 50%;
+    transform: translate(0,-50%);
     right: 10px;
     width: auto;
     display: none;
@@ -100,6 +101,36 @@ a:hover{
     display: none;
 }
 
+#open{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+span > p{
+    font-size: 1.1rem;
+    border: 2px solid #d4fd02;
+    padding: 1px 3px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+#close{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-weight: bolder;
+    
+}
+
+#close p{
+    border: none;
+    font-size: 1.6rem;
+}
+
 @media screen and (max-width:820px) {
     .links ul{
         font-size: large;
@@ -111,16 +142,25 @@ a:hover{
 
 
 @media screen and (max-width:700px) {
+    .navbar-container{
+        position: fixed;
+    }
     .navbar{
+        position: absolute;
+        top: 0;
+        background: #111111;
+        height: 100vh;
+        width: 100%;
         flex-direction: column;
         min-height: 100vh;
         justify-content: space-around;
-        display: none;
+        transform: translate(0,-100%);
+        transition: all 1s linear;
     }
     .mobile{
         display: block;
     }
-    .hamburger-menu{
+    .nav-menu{
         display: block;
     }
     .logo{
