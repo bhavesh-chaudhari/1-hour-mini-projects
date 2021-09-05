@@ -143,7 +143,7 @@ span > p{
 
 @media screen and (max-width:700px) {
     .navbar-container{
-        position: fixed;
+        position: sticky;
     }
     .navbar{
         position: absolute;
@@ -155,7 +155,7 @@ span > p{
         min-height: 100vh;
         justify-content: space-around;
         transform: translate(0,-100%);
-        transition: all 1s linear;
+        transition: all 1s ease;
     }
     .mobile{
         display: block;
