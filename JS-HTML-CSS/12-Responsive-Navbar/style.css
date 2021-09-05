@@ -142,9 +142,6 @@ span > p{
 
 
 @media screen and (max-width:700px) {
-    .navbar-container{
-        position: sticky;
-    }
     .navbar{
         position: absolute;
         top: 0;
