@@ -136,7 +136,7 @@ span > p{
         font-size: large;
     }
     li{
-        margin: 8px;
+        margin: 7px;
     }
 }
 
@@ -150,7 +150,7 @@ span > p{
         width: 100%;
         flex-direction: column;
         min-height: 100vh;
-        justify-content: space-around;
+        justify-content: center;
         transform: translate(0,-100%);
         transition: all 1s ease;
     }
