@@ -24,6 +24,8 @@
 | `08`  | [Quiz in Video](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/08-Quiz-in-Video) |*HTML video properties, HTML Media API*|[Read Here](#8-quiz-in-video)|**challenging**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/08-Quiz-in-Video/index.html) |
 | `09`  | [Syntax Highlighting In Website](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/09-Syntax-Highlighting-In-Website) |*highlight.js, clipboard.js, copying text to clipboard*|[Read Here](#9-syntax-highlighting-in-website)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/09-Syntax-Highlighting-In-Website/index.html) |
 | `10`  | [Page Pre Loader](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/10-Page-Pre-Loader) |*text-animation*|[Read Here](#10-page-pre-loader)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/10-Page-Pre-Loader/index.html) |
+| `11`  | Coming Soon ! |---|---|---|---|
+| `12`  | [Responsive Navbar](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/12-Responsive-Navbar) |*responsiveness through css and js*|[Read Here](#12-responsive-navbar)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/12-Responsive-Navbar/) |
 
 
 ##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
@@ -85,6 +87,9 @@ A lot of websites show code on their platform. So for making the code look clean
 ### 10. Page Pre Loader
 
 A pre loader for website which can be set upto our desired time. But many times, we just need a pre loader which disappears after page has loaded completely, so i have provided the code for that [here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/dce143840c5f86849dcb7fe226bed967ded7d9c1/JS-HTML-CSS/10-Page-Pre-Loader/script.js#L13) but it is commented out since i have taken the desired time loader as an instance for the project. 
+
+### 12. Responsive Navbar
+A responsive navbar project.
 
 ## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
