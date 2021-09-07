@@ -5,6 +5,7 @@ const close = document.getElementById("close");
 const content = document.getElementById("content")
 
 open.addEventListener("click", ()=>{
+  console.log("opened");
     navbar.style.transform = "translate(0,0)";
     mobile.style.display = "none"
     open.style.display = "none";
@@ -13,6 +14,7 @@ open.addEventListener("click", ()=>{
 })
 
 close.addEventListener("click",()=>{
+    console.log("closed");
     close.style.display = "none";
     open.style.display = "block"
     mobile.style.display = "block";
