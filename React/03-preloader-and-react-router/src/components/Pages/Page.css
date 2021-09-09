@@ -1,0 +1,10 @@
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: lighter;
+}
