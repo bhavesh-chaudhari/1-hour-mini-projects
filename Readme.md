@@ -31,8 +31,10 @@
 ##  <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> React 
 | Project        | Code   |Tags | Description |Difficulty|Live Demo|
 | ------------- |:-------:| :---:|:---:|:---:|:-----:|
-|`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|*useState, useEffect, useRef, conditional rendering*|[Read Here](#1-add-random-colored-div)|**easy to moderate**|[Live Demo](https://01-add-random-colored-div-1hour-mini-projects-bhavesh-c.netlify.app/)|
-|`02`|[Variation In Sum of First 30 Natural Numbers](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/02-variation-in-sum-of-first-30-natural-numbers)|*Chart.js, dynamic component rendering*|[Read Here](#2-variation-in-sum-of-first-30-natural-numbers)|**moderate**|[Live Demo](https://project02-react-1hmp-bhavesh-c.netlify.app/)|
+|`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|*useState, useEffect, useRef, conditional rendering*|[Read Here](#1-add-random-colored-div)|**easy to moderate**|[Live Demo](https://project01-react-1hmp-bhavesh.netlify.app/)|
+|`02`|[Variation In Sum of First 30 Natural Numbers](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/02-variation-in-sum-of-first-30-natural-numbers)|*Chart.js, dynamic component rendering*|[Read Here](#2-variation-in-sum-of-first-30-natural-numbers)|**moderate**|[Live Demo](https://project02-react-1hmp-bhavesh.netlify.app/)|
+|`03`|[Preloader and React Router](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/03-preloader-and-react-router)|*preloader, react-spinners, react-router*|[Read Here](#3-preloader-and-react-router)|**easy to moderate**|[Live Demo](https://project03-react-1hmp-bhavesh.netlify.app/)|
+
 
 ## <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python
 | Project        | Code   |Tags | Description |Difficulty|Outcome|
@@ -97,6 +99,8 @@ Simple illustration of useState, useEffect, useRef hooks and conditional renderi
 ### 2. Variation In Sum of First 30 Natural Numbers
 In this project [Chart.js](https://www.chartjs.org/) is used in order to build charts which represent the variation in sum of first 30 natural numbers.
 Here i have dynamically implemented 6 different chart types namely Line, Bar, Pie, Doughnut, Polar Area Chart and Radar Chart.
+### 3. Preloader and React Router
+In this project two libraries are used, namely [react-spinners](https://www.npmjs.com/package/react-spinners) and [react-router](https://reactrouter.com/). React Spinners is used for the preloader whereas the React Router helps us with routing. 
 
 ## :fountain_pen:  Python-Projects-Description
 
