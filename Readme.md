@@ -90,6 +90,8 @@ A lot of websites show code on their platform. So for making the code look clean
 
 A pre loader for website which can be set upto our desired time. But many times, we just need a pre loader which disappears after page has loaded completely, so i have provided the code for that [here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/dce143840c5f86849dcb7fe226bed967ded7d9c1/JS-HTML-CSS/10-Page-Pre-Loader/script.js#L13) but it is commented out since i have taken the desired time loader as an instance for the project. 
 
+### 11. Coming on 13th Sep
+
 ### 12. Responsive Navbar
 A responsive navbar project.
 
