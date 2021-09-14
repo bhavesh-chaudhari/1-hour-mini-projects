@@ -10,20 +10,20 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
-var texture = new THREE.TextureLoader().load("shaktimaan.png");
+var textureShaktimaan = new THREE.TextureLoader().load("shaktimaan.png");
 const geometry = new THREE.CylinderGeometry(3, 3, 30, 40);
-const material = new THREE.MeshBasicMaterial({ map: texture });
+const material = new THREE.MeshBasicMaterial({ map: textureShaktimaan });
 const cylinder = new THREE.Mesh(geometry, material);
 scene.add(cylinder);
 
 const loader = new THREE.TextureLoader();
-loader.load("city1.jpg", function (texture) {
-  scene.background = texture;
+loader.load("city1.jpg", (texture1)=> {
+  scene.background = texture1;
 });
 
 camera.position.z = 100;
 
-function animate() {
+const animate = ()=> {
   requestAnimationFrame(animate);
   renderer.render(scene, camera);
   cylinder.rotation.y += 0.03;
