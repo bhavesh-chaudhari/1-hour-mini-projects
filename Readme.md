@@ -24,7 +24,7 @@
 | `08`  | [Quiz in Video](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/08-Quiz-in-Video) |*HTML video properties, HTML Media API*|[Read Here](#8-quiz-in-video)|**challenging**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/08-Quiz-in-Video/index.html) |
 | `09`  | [Syntax Highlighting In Website](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/09-Syntax-Highlighting-In-Website) |*highlight.js, clipboard.js, copying text to clipboard*|[Read Here](#9-syntax-highlighting-in-website)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/09-Syntax-Highlighting-In-Website/index.html) |
 | `10`  | [Page Pre Loader](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/10-Page-Pre-Loader) |*text-animation*|[Read Here](#10-page-pre-loader)|**easy**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/10-Page-Pre-Loader/index.html) |
-| `11`  | [Three.js Shaktimaan](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/11-threejs-shaktimaan) |*three.js*|[Read Here](#11-three.js-shaktimaan)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/11-threejs-shaktimaan/)|
+| `11`  | [Three.js Shaktimaan](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/11-threejs-shaktimaan) |*three.js*|[Read Here](#11-threejs-shaktimaan)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/11-threejs-shaktimaan/)|
 | `12`  | [Responsive Navbar](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/JS-HTML-CSS/12-Responsive-Navbar) |*responsiveness through css and js*|[Read Here](#12-responsive-navbar)|**easy to moderate**|[Live Demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/12-Responsive-Navbar/) |
 
 
@@ -90,7 +90,7 @@ A lot of websites show code on their platform. So for making the code look clean
 
 A pre loader for website which can be set upto our desired time. But many times, we just need a pre loader which disappears after page has loaded completely, so i have provided the code for that [here](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/blob/dce143840c5f86849dcb7fe226bed967ded7d9c1/JS-HTML-CSS/10-Page-Pre-Loader/script.js#L13) but it is commented out since i have taken the desired time loader as an instance for the project. 
 
-### 11. Three.js Shaktimaan
+### 11. Threejs Shaktimaan
 
 [Three.js](https://threejs.org/) is a powerful javascript library for animation. Many websites use it to display very attractive animations. Some people use it for making their portfolio attractive using it(and they often use particles.js(#6-particle-js-example) too !), in short it is used wildly. Shaktimaan is an Indian Superhero from a TV series during late 90s - early 2000s and he has the capability to fly by spinning himself. If you have seen the [live demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/11-threejs-shaktimaan/) you might be still laughing, i was laughing too when i thought of making this and honestly it turned out to be funny. As soon as i discover some more funny things i will update this project a bit.
 
