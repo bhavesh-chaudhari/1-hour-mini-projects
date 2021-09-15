@@ -92,7 +92,7 @@ A pre loader for website which can be set upto our desired time. But many times,
 
 ### 11. Threejs Shaktimaan
 
-[Three.js](https://threejs.org/) is a powerful javascript library for animation. Many websites use it to display very attractive animations. Some people use it for making their portfolio attractive using it(and they often use [particles.js](#6-particle-js-example) too !), in short it is used wildly. Shaktimaan is an Indian Superhero from a TV series during late 90s - early 2000s and he has the capability to fly by spinning himself. If you have seen the [live demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/11-threejs-shaktimaan/) you might be still laughing, i was laughing too when i thought of making this and honestly it turned out to be funny. As soon as i discover some more funny things i will update this project a bit.
+[Three.js](https://threejs.org/) is a powerful javascript library for animation. Many websites use it to display very attractive animations. Some people use it for making their portfolio attractive(and they often use [particles.js](#6-particle-js-example) too !), in short it is used wildly. Shaktimaan is an Indian Superhero from a TV series during late 90s - early 2000s and he has the capability to fly by spinning himself. If you have seen the [live demo](https://bhavesh-chaudhari.github.io/1-Hour-Mini-Projects/JS-HTML-CSS/11-threejs-shaktimaan/) you might be still laughing, i was laughing too when i thought of making this and honestly it turned out to be funny. As soon as i discover some more funny things i will update this project a bit.
 
 ### 12. Responsive Navbar
 A responsive navbar project.
