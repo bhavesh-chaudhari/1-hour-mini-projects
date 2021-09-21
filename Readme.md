@@ -97,6 +97,8 @@ A pre loader for website which can be set upto our desired time. But many times,
 ### 12. Responsive Navbar
 A responsive navbar project.
 
+### 13. Glassmorphism
+
 ## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
 Simple illustration of useState, useEffect, useRef hooks and conditional rendering.
