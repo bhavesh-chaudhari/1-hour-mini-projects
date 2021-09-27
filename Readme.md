@@ -34,6 +34,7 @@
 |`01`|[Add Random Colored Div](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/01-add-random-colored-div)|*useState, useEffect, useRef, conditional rendering*|[Read Here](#1-add-random-colored-div)|**easy to moderate**|[Live Demo](https://project01-react-1hmp-bhavesh.netlify.app/)|
 |`02`|[Variation In Sum of First 30 Natural Numbers](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/02-variation-in-sum-of-first-30-natural-numbers)|*Chart.js, dynamic component rendering*|[Read Here](#2-variation-in-sum-of-first-30-natural-numbers)|**moderate**|[Live Demo](https://project02-react-1hmp-bhavesh.netlify.app/)|
 |`03`|[Preloader and React Router](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/03-preloader-and-react-router)|*preloader, react-spinners, react-router*|[Read Here](#3-preloader-and-react-router)|**easy to moderate**|[Live Demo](https://project03-react-1hmp-bhavesh.netlify.app/)|
+|`05`|[useState Hook](https://github.com/bhavesh-chaudhari/1-Hour-Mini-Projects/tree/main/React/05-learn-use-state-hook)|*useState Hook, React Hooks Series*|[Read Here](#5-usestate-hook)|**easy to moderate**|[Live Demo](https://project05-react-1hmp-bhavesh.netlify.app/)|
 
 
 ## <img alt="Bhavesh's Linkedin" width="20px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" /> Python
@@ -107,6 +108,8 @@ In this project [Chart.js](https://www.chartjs.org/) is used in order to build c
 Here i have dynamically implemented 6 different chart types namely Line, Bar, Pie, Doughnut, Polar Area Chart and Radar Chart.
 ### 3. Preloader and React Router
 In this project two libraries are used, namely [react-spinners](https://www.npmjs.com/package/react-spinners) and [react-router](https://reactrouter.com/). React Spinners is used for the preloader whereas the React Router helps us with routing. 
+### 5. useState Hook
+useState Hook project - React Hooks Series.
 
 ## :fountain_pen:  Python-Projects-Description
 
