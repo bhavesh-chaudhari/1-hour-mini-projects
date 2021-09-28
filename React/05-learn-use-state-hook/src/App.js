@@ -22,7 +22,7 @@ const App = ()=>{
       <>
         <div className="container">
             <div className="image">
-              <img src={image} alt="Like :-) or Dislike :-(" />
+              <img src={image} alt="image" />
             </div>
             <div className="actions">
               <span className="like" onClick={handleLike} >like</span>
