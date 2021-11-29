@@ -45,11 +45,11 @@
 |`03`|[simple quick url shortener](https://github.com/bhavesh-chaudhari/1-hour-mini-projects/tree/main/python/03-simple-quick-url-shortener)|*pyshorteners, tinyurl*|[Read Here](#3-simple-quick-url-shortener)|**tea time**|[See Output](https://github.com/bhavesh-chaudhari/1-hour-mini-projects/blob/main/python/03-simple-quick-url-shortener/Readme.md)|
 ## :page_with_curl: Descriptions -
 
- 1. [```js-html-css```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen-js-html-css-projects-description)
- 2. [```react```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen--react-projects-description)
- 3. [```python```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen--python-projects-description)
+ 1. [```JS-HTML-CSS```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen-js-html-css-projects-description)
+ 2. [```React```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen--react-projects-description)
+ 3. [```Python```](https://github.com/bhavesh-chaudhari/1-hour-mini-projects#fountain_pen--python-projects-description)
 
-## :fountain_pen: js-html-css-Projects-Description
+## :fountain_pen: JS-HTML-CSS-Projects-Description
 
 ### 1. Dark Mode
 
@@ -100,7 +100,7 @@ A responsive navbar project.
 
 ### 13. Glassmorphism
 
-## :fountain_pen:  react-Projects-Description
+## :fountain_pen:  React-Projects-Description
 ### 1. Add Random Colored Div
 Simple illustration of useState, useEffect, useRef hooks and conditional rendering.
 ### 2. Variation In Sum of First 30 Natural Numbers
@@ -111,7 +111,7 @@ In this project two libraries are used, namely [react-spinners](https://www.npmj
 ### 5. useState Hook
 useState Hook project - react Hooks Series.
 
-## :fountain_pen:  python-Projects-Description
+## :fountain_pen:  Python-Projects-Description
 
 ### 1. Extracting top billionaires info with Beautiful Soup
 Using [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) library to extract info of current top billionaires such as Name, Net Worth, Residence, Stake and Assets. Link to [Final Outcome File](https://github.com/bhavesh-chaudhari/1-hour-mini-projects/blob/main/python/01-extracting-top-billionaires-info-with-beautiful-soup/billionaires_data.js).
