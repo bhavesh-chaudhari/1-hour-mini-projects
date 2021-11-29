@@ -1,0 +1,44 @@
+.div-component{
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    height: 5rem;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+    word-wrap: break-word;
+}
+
+.div-number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 6px;
+    background: #fff;
+    outline: 0;
+     box-shadow: 0 0 0 1px greenyellow;
+    color: black;
+    border-bottom-right-radius: 10px;
+}
+
+.div-color{
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 90%;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:800px) {
+    .div-component{
+        width: 12rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .div-component{
+        width:9rem;
+    }
+    .div-number{
+        padding: 3px;
+    }
+}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef} from "react";
 import "./App.css";
-import Div from "./Components/Div";
+import Div from "./components/Div";
 
 const App = () => {
   

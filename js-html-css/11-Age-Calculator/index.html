@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>11 Age Calculator - 1HMP</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Heading -->
+    <div class="heading">
+        <h1>Age Calculator</h1>
+    </div>    
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="input" id="input" >
+            <div class="legend">
+                Input
+            </div>
+            <div class="input-content">
+                <h3>Birth Date</h3>
+               <div class="date">
+                    <input id="date1" type="number" value="7" min="1" max="31" >
+                    <select name="birth-month" id="birth-month">
+                    </select>
+                    <input id="birth-year" type="number" min="1900" max="2099" step="1" value="2001" />
+               </div>
+               <h3>Calculate Age At</h3>
+                <div class="date">
+                    <input id="date2" type="number" value="21" >
+                    <select name="at-month" id="at-month">
+
+                    </select>
+                    <input id="at-year" type="number" min="1900" max="2099" step="1" value="2021" />
+               </div>
+
+               <button id="calculate-btn" class="calculate-btn" ><a href="#output-content">Calculate Age</a></button>
+            </div>
+        </div>
+        <div class="output" id="output" >
+            <div class="legend">
+                Output
+            </div>
+            <div class="output-content" id="output-content" >
+                <!-- <h3>At 21/1/2022(Monday) your Age is :</h3>
+                <ul>
+                    <li>19 years 10 months 29 days</li>
+                    <li>or 238 months 29 days</li>
+                    <li>or 1039 weeks 0 days</li>
+                    <li>or 7,273 days</li>
+                    <li>or 174,552 hours</li>
+                    <li>or 10,473,120 minutes</li>
+                    <li>or 628,387,200 seconds</li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
