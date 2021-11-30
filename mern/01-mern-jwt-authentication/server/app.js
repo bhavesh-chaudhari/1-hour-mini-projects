@@ -1,26 +1,26 @@
 import express from "express"
 import dotenv from "dotenv"
-import cors from "cors";
 import CONNECT_DB from "./db/connect.js";
-import authRoutes from "./routes/auth.js";
+import authRouter from "./routes/auth.js";
+import cors from "cors";
+import helmet from "helmet";
+import xss from "xss-clean"
 
 // initialize app
 const app = express();
+// req.body will be empty without this
 app.use(express.json());
 
 // configure dotenv
 dotenv.config({path: "./config/.env"});
 
-// cors
-app.use(
-  cors({
-    origin: "http://localhost:3000",
-    credentials: true,
-  })
-);
+// ready-to-go security middlewares
+app.use(cors());
+app.use(helmet())
+app.use(xss())
 
-// Routes
-app.use("/", authRoutes)
+// routes
+app.use("/api/v1/auth", authRouter)
 
 // read environment variables from .env
 const PORT = process.env.PORT || 5000;
