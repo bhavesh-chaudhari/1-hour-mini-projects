@@ -19,6 +19,11 @@ app.use(cors());
 app.use(helmet())
 app.use(xss())
 
+// example get route
+app.get("/", (req, res) => {
+  res.send("mern app jwt auth");
+});
+
 // routes
 app.use("/api/v1/auth", authRouter)
 
