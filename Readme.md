@@ -151,5 +151,7 @@ A project to make aware about [pyshorteners Library](https://pyshorteners.readth
 5. How are the `categories` decided ?  
 :pen: Each programming language is separated as a category and have their own respective directories. If it seems like there will be multiple projects from some library/framework then it is also separated as a category.
 
+# Restart - 22nd March 2022
+
 
 
