@@ -10,7 +10,7 @@
   "author": "Bhavesh Chaudhari",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "express": "^4.17.2",
