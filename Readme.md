@@ -1,4 +1,7 @@
-# Vault Of Mini Projects  
+# 1 Hour Mini Projects  
+
+### 🛑 Note: 
+This repository had been dormant since December 2021, but on November 5, 2023, at 4:30 AM, it was reincarnated as [next-gen-mini-projects](https://github.com/bhavesh-chaudhari/next-gen-mini-projects).
 
 ### This repository has all sorts of mini projects. Here the code is provided along with live demo or final outcomes. 
 #### See [Wild West ?](#the-wild-west) to know more about this repository.
